@@ -15,7 +15,7 @@
 
 
 ## COURSE OVERVIEW
-This course will build on the skills aquired in "Intro to Web Design" (mart341). Topics will incoude the following;
+This course will build on the skills aquired in "Intro to Web Design" (mart341). Topics will include the following;
 
 - Refresh of required technology from 341
 - Programming in JavaScript
