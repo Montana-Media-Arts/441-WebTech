@@ -36,3 +36,12 @@
     - One way of doing this is by using `innerHTML=""` to set the value of an elements html.
     - However, in order for us to use this, we have to tell the DOM, _which_ element we mean.
     - We can do this by first selecting the correct element with a method such as `document.getElementById()`.
+
+7. Using `getElementsByTag()` to change many elements at once
+
+8. Changing the document
+    - Via ["Eloquent JavaScript" - Ch 13 The DOM](http://eloquentjavascript.net/13_dom.html#h_npiFAJENvT)
+    - Use these properties to rearrange the document with `.insertBefore()`
+
+9. Create Nodes
+    - Replace images with the alt text supplied.
