@@ -30,4 +30,25 @@ This course will build on the skills aquired in "Intro to Web Design" (mart341).
 # Weekly Breakdown
 Check here for what we have done, or are going to be doing.
 
-### 1.1 — Introduction
+
+### 01.A — Introduction
+
+An intro of the class.
+
+
+### 01.B - Review of JS
+
+A review of basic JS.
+
+
+### 02.A - Git, GitHub, and GitHub-Pages
+
+An overview and review of Git Version Control, GitHub, and GitHub-Pages.
+HW-1 is Due Feb 07.
+
+
+### 02.B - JS and HTML
+
+Introduction to JS, HTML, and the DOM.
+
+Specifically, look at how JS can be used to manipulate HTML and the DOM. 
