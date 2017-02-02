@@ -25,6 +25,10 @@
             var r1 = Math.floor(Math.random() * paragraphs.length);
             var r2 = Math.floor(Math.random() * paragraphs.length);
             document.body.insertBefore(paragraphs[r1], paragraphs[r2]);
+
+            // console.log("The randoms were: " + r1 + " - " + r2);
+            var debug1 = document.getElementById("debug1");
+            debug1.innerHTML = "The randoms were: " + r1 + " - " + r2;
         }
     </script>
 </body>
