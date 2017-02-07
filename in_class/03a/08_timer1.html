@@ -9,12 +9,14 @@
     <script>
     var ticks = 0;
     var clock = setInterval(function() {
-        console.log("tick", ticks++);
         if (ticks == 10) {
             clearInterval(clock);
+			console.log("tick", ticks++);
             console.log("stop.");
-        }
-    }, 500);
+        } else {
+			console.log("tick", ticks++);
+		}
+	}, 500);
     </script>
 
 </body>

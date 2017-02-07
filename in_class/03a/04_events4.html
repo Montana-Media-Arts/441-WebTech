@@ -5,11 +5,15 @@
     <title>events</title>
 
     <style media="screen">
+
+		p {
+			padding: 20px;
+			margin: auto;
+			max-width: 80px;
+		}
         #click {
             color: rgb(200, 255, 207);
             background-color: rgb(34, 25, 10);
-            padding: 20px;
-            max-width: 70px;
         }
         #click:hover {
             color: rgb(34, 25, 10);
@@ -27,7 +31,8 @@
     <!-- events can be attached to any element -->
     <p id="click">Click me</p>
     <p id="noClick">No handler here.</p>
-    <script>
+
+	<script>
 
     var rand255 = function() {
         var num;

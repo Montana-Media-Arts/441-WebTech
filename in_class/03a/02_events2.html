@@ -11,8 +11,9 @@
     <p>No handler here.</p>
     <script>
     var button = document.getElementById("click");
-    button.addEventListener("click", function() {
+    button.addEventListener("mouseup", function(event) {
         console.log("Button clicked.");
+        console.log(event.which);
     });
     </script>
 
