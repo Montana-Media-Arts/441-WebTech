@@ -7,6 +7,7 @@ html {
 body {
     font-size: 1.1em;
     background: #acacac;
+    transition: all 0.5s;
 }
 
 img {
@@ -157,6 +158,8 @@ footer {
     }
 
     .logo_image {
+        /*min-height: 210px;*/
+        max-height: 150px;
         padding: 0;
         margin: 0;
     }

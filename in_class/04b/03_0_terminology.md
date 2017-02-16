@@ -3,7 +3,7 @@
 The following are common terms used when discussing responsive or adaptive design.
 
 ## Fluid Grids
-This is an arrangement of organization of content lacking a fixed width, which is composed of intersecting vertical and horizontal lines. This gris is used to structure content in a predictable and consistent manner by adjusting the size and positioning of the elements contained within.
+This is an arrangement of organization of content lacking a fixed width, which is composed of intersecting vertical and horizontal lines. This grid is used to structure content in a predictable and consistent manner by adjusting the size and positioning of the elements contained within.
 
 ## Flexible Images
 This is any visual content or media that adjusts to fit a user’s screen size. Usually these are images placed within a flexible grid that has the max-width CSS rule applied at 100 percent. In layman’s terms, this prevents images from being larger than the grids in which they’re placed while also allowing images to resize without sacrificing any of their aspect ratio. To avoid slow loading times, designers can compress the  images’ resolutions when displayed on smaller devices. Another method is to set the width as a percentage of the width of the page as a whole.
