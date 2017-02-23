@@ -24,3 +24,11 @@ Resource files at: https://github.com/scotch-io/node-booklet-code/tree/master/ap
 
 To install 'express'
 `npm install express --save`
+
+
+
+## NOTE:
+
+Much of this is from:
+
+- [First Node.js App](https://s3.amazonaws.com/scotchio/First-Node-App.pdf)
