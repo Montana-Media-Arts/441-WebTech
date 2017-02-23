@@ -10,3 +10,17 @@ To install node.js, follow the instructions from [open classroom](https://opencl
 - On macOS. open terminal and type `node`.
 
 From here we can write interactive javascript!
+
+## Execute a program
+
+
+## Create a package.json based program
+
+Run `npm init` in a new directory.
+
+## Create a server
+
+Resource files at: https://github.com/scotch-io/node-booklet-code/tree/master/app2
+
+To install 'express'
+`npm install express --save`
