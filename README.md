@@ -26,6 +26,12 @@ This course will build on the skills aquired in "Intro to Web Design" (mart341).
 - [Homework Wiki](https://github.com/Montana-Media-Arts/441-web-technologies/wiki) (_OR_, click the "wiki tab" up above.)
 
 
+# Final Presentations
+
+Final Presentations will occur during our Unoversity scheduled final time. Please plan on being in class to support your fellow students.
+
+Monday, May 8th. from 8:00AM - 10:00AM
+
 
 # Weekly Breakdown
 Check here for what we have done, or are going to be doing.
