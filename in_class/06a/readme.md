@@ -12,5 +12,3 @@ Input arguments from the command line
   - Using input flags
 
 Stdin & Stdout
-
-Timing in JS

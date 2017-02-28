@@ -7,7 +7,7 @@ Lets use standard out and standard input to create a simple 'interactive' app.
 var questions = [
   "What is your name?",
   "What is your favorite hobby?",
-  "What is yoru favorite coding language?"
+  "What is your favorite coding language?"
 ];
 
 // An empty array to collect answers
@@ -27,7 +27,7 @@ process.stdin.on('data', function(data) {
 
   // lets store the answer into the answers array.
   answers.push(data.toString().trim());
-
+  //
   // Lets check if there are more questions to ask.
   if (answers.length < questions.length) {
     // then ask the next question until there are no more.
