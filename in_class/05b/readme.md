@@ -14,7 +14,7 @@ From here we can write interactive javascript!
 ## Execute a program
 
 
-## Create a package.json based program
+## Create a `package.json` based program
 
 Run `npm init` in a new directory.
 
