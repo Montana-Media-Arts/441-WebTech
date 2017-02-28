@@ -13,3 +13,7 @@ For example in the code below, we can call the basename() function on the path m
 var path = require("path");
 
 console.log(`The name of this file is: ${path.basename(__filename)}` );
+
+
+console.log( path.isAbsolute('./baz/..') );
+console.log( path.isAbsolute('qux/') );

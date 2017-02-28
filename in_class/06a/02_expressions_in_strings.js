@@ -6,6 +6,7 @@
 var numOfTrombones = 76;
 
 // Print a string to the console and include the variable
+// "There were " + numOfTrombones + " trombiones in that big parade."
 console.log(`There were ${numOfTrombones} trombones in that big parade.`);
 
 // math inside a string

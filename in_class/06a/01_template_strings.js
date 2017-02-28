@@ -7,7 +7,7 @@
 // For more on template strings see https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
 
 // regular string, using template string notation
-var str1 = `A string`;
+var str1 = "A string\n\t\t\t\tline 2";
 
 // A multi-line string
 // Template strings recognize white space and new lines.
