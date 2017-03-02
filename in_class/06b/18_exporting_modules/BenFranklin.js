@@ -2,7 +2,7 @@ var Person = require("./lib/Person");
 
 // Use the class module to create two instances!
 var ben = new Person("Ben Franklin");
-var george = new Person("George Washingtoin");
+var george = new Person("George Washington");
 
 george.on('speak', function(said) {
 

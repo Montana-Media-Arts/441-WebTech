@@ -12,10 +12,10 @@ util.log( path.basename(__filename) );
 
 
 // // create a new directory path
-// var dirUploads = path.join( __dirname, 'www', 'files', 'uploads' );
+var dirUploads = path.join( __dirname, 'www', 'files', 'uploads' );
 // // Log the directory path
-// util.log(dirUploads);
+util.log(dirUploads);
 //
 //
 // // Use v8 to get information about the computer system
-// util.log( v8.getHeapStatistics() );
+util.log( v8.getHeapStatistics() );

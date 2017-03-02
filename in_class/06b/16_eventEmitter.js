@@ -4,7 +4,7 @@ var events = require('events');
 // Create a new instance of the emitter
 var emitter = new events.EventEmitter();
 
-// Create a custome event (we can name this anything)
+// Create a custom event (we can name this anything)
 // This will be called when ever emit occurs
 // The function is executed whenever the emit occurs
 // This will occur asynchronously
