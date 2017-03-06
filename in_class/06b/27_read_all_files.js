@@ -3,6 +3,8 @@ var path = require("path");
 
 fs.readdir("./lib", function(err, files) {
 
+    fs.writeFileSync("test.md", `# TEST\n\n`);
+
     // We can us the JS forEach command to loop through
     // all elements of the array
     // This will return the file name
@@ -18,7 +20,7 @@ fs.readdir("./lib", function(err, files) {
         if(stats.isFile() && fileName !== ".DS_Store"){
 
             fs.readFile(file, "UTF-8", function(err, contents){
-                console.log(contents);
+                fs.appendFile("test.md", contents);
             });
 
         }
