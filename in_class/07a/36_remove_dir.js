@@ -13,7 +13,7 @@ fs.rmdir("./logs", function(err){
     if (err) {
         throw err;
     }
-
+    
     console.log("Logs dir removed");
 
 });
