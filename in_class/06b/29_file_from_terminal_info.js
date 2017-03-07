@@ -1,6 +1,8 @@
 // Same starting code as 15_readline_02.js
 //
 // The FS file gives us the ability to create files AND write files.
+/* jshint esversion: 6 */
+
 
 var readline = require('readline');
 var rl = readline.createInterface(process.stdin, process.stdout);

@@ -17,3 +17,5 @@ fs.unlink("./remove_lib/notes.md", function(err){
         console.log("Notes.md removed");
     }
 });
+
+console.log("\nProgram End\n\n\n");

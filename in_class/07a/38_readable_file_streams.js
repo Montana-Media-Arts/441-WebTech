@@ -1,3 +1,7 @@
+
+/* jshint esversion: 6 */
+
+
 var fs = require("fs");
 
 // This creates a readable file stream, reading in our *large* file.
@@ -25,6 +29,6 @@ stream.on("data", function(chunk) {
 // This is an event that will fire when the end event is fired
 stream.on("end", function() {
 	console.log("\n\n\n");
-	console.log(`Finished Reading File ${data.length}`);
+	console.log(`Finished Reading File. File lenth is ${data.length}`);
 	console.log("\n\n\n");
 });
