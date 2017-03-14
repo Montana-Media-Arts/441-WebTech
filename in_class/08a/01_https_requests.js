@@ -22,7 +22,7 @@ var req = https.request(options, function(res){
 
     // The response will come in as binary,
     // but we know it is UTF-8 binary, so lets set that.
-    res.setEncoding("UTF-8");
+    // res.setEncoding("UTF-8");
 
     // log the first chunk
     res.once("data", function(chunk) {
@@ -36,7 +36,7 @@ var req = https.request(options, function(res){
     });
 
     res.on("end", function(){
-        fs.writeFile("george-washing.html", responseBody, function(err){
+        fs.writeFile("george-washington.html", responseBody, function(err){
             if (err) {
                 throw err;
             }
