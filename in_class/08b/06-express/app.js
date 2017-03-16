@@ -50,36 +50,36 @@ app.get("/dictionary-api", function(req, res) {
 	res.json(skierTerms);
 });
 
-// // The first is our post request
-// app.post("/dictionary-api", function(req, res) {
-//     // Push the new term into the array
-//     skierTerms.push(req.body);
-//     // Respond with the new array
-//     res.json(skierTerms);
-// });
-// // Now when we add the term "Powder" : "The good stuff, why we ski"
-// // Notice that the page updates appropriatly.
+// The first is our post request
+app.post("/dictionary-api", function(req, res) {
+    // Push the new term into the array
+    skierTerms.push(req.body);
+    // Respond with the new array
+    res.json(skierTerms);
+});
+// Now when we add the term "Powder" : "The good stuff, why we ski"
+// Notice that the page updates appropriatly.
+
+
+// Now lets create a "delete route"
 //
-//
-// // Now lets create a "delete route"
-// //
-// // If you send a term to dictonary-api, we need to find that term.
-// // To do that we add a colon to signify a variable
-// app.delete("/dictionary-api/:term", function(req, res) {
-//     // Now we need to remoe the term
-//     // So lets use the js array filter function.
-//     // Each term will be passed as the variable definition to the callback function
-//     // If the function returns true the item stays in the array, if it returns false it is not included.
-//     // So check the definition.term (from the array) against the req.params.term
-//     // If they equal each other then return false.
-//     // This new array is stored back into the same namespace as the old one
-//     skierTerms = skierTerms.filter(function(definition) {
-//         return definition.term.toLowerCase() !== req.params.term.toLowerCase();
-//     });
-//     // return the array as a response
-//     res.json(skierTerms);
-// });
-// // To delete double click
+// If you send a term to dictonary-api, we need to find that term.
+// To do that we add a colon to signify a variable
+app.delete("/dictionary-api/:term", function(req, res) {
+    // Now we need to remove the term
+    // So lets use the js array filter function.
+    // Each term will be passed as the variable definition to the callback function
+    // If the function returns true the item stays in the array, if it returns false it is not included.
+    // So check the definition.term (from the array) against the req.params.term
+    // If they equal each other then return false.
+    // This new array is stored back into the same namespace as the old one
+    skierTerms = skierTerms.filter(function(definition) {
+        return definition.term.toLowerCase() !== req.params.term.toLowerCase();
+    });
+    // return the array as a response
+    res.json(skierTerms);
+});
+// To delete double click
 
 
 

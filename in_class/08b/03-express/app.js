@@ -34,8 +34,8 @@ app.use(express.static("./public"));
 
 // This app.get function sets up a 'get' route.
 // The first argument is the route
-// The second argument is the function to be called
-// These are the same request and response we used in our http module.
+// The second argument is the callback function to be called
+// These are the same 'request' and 'response' we used in our http module.
 // But they have been super powered by express.
 // Express has added some functionality to them to make things easy for us.
 // The response object now has a json function. In the response, json function will simply take a json object, like our skiier terms and automatically handle stringifying it, and setting up the headers to reply with a json response.
