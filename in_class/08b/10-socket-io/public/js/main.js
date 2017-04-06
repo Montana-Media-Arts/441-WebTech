@@ -3,7 +3,7 @@
 // In our current case, its a localhost
 var socket = io("http://localhost:3000");
 
-// disconnect event
+// dosconnect event
 socket.on("disconnect", function() {
 	setTitle("Disconnected");
 });
