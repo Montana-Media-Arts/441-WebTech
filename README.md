@@ -1,41 +1,34 @@
-# MART 441 - Web Technologies
+# Course Resource Repo<br>Web Technologies - MART 441
 
-### Professor Michael Musick
-
-- E-Mail: [michael.musick@umontana.edu](mailto:michael.musick@umontana.edu).
-- Office: McGill Hall, 224.
-- Office Hours:
-    - Wed, 12:30PM - 2:00PM (please e-mail to confirm)
-    - Thu, 12:30PM - 2:00PM (please e-mail to confirm)
+This is the resources repository and issues-forum for the web-based version of Web Technologies (MART 441) at the School of Media Arts, University of Montana.
 
 
+## Repo Info
 
-## COURSE OVERVIEW
-This course will build on the skills aquired in "Intro to Web Design" (mart341). Topics will incoude the following;
+The course resource repo is where all supplemental content and additional material for MART 441 are located.
 
-- Refresh of required technology from 341
-- Programming in JavaScript
-- Using JaveScript in web sites
-- node.js
-- Basic web apps
-- Development with JS Libraries
+This repository contains;
 
-### Links
-- For additional info about the class, as well as official policies, please see the [Syllabus](https://github.com/Montana-Media-Arts/441-web-technologies/tree/master/_syllabus)
-- [Class Discussion Forum via GitHub Repo Issues](https://github.com/Montana-Media-Arts/441-web-technologies/issues)
-- [Homework Wiki](https://github.com/Montana-Media-Arts/441-web-technologies/wiki) (_OR_, click the "wiki tab" up above.)
+- Code examples included in the online lecture content.
+- Examples of how to complete select homework assignments.
+- The issues board, where students can ask for help on problems, or other quandaries.
 
 
-# Final Presentations
+## Course Info
 
-Final Presentations will occur during our Unoversity scheduled final time. Please plan on being in class to support your fellow students.
+This course focuses on media integration, interactivity, client-side development, and server-side development for the presentation and development of artistic websites.
 
-Monday, May 8th. from 8:00AM - 10:00AM
+- [_Web Tech_ Website](https://montana-media-arts.github.io/web-tech/)
 
 
-# Weekly Breakdown
-Check here for what we have done, or are going to be doing.
 
+## Designer and Instructor Info
+
+- Professor Michael Musick
+- E-Mail: [michael.musick@umontana.edu](mailto:michael.musick@umontana.edu?subject=440%20question).
+- Office: McGill Hall, 232.
+
+<!--
 
 ### 01.A — Introduction
 
@@ -57,4 +50,6 @@ HW-1 is Due Feb 07.
 
 Introduction to JS, HTML, and the DOM.
 
-Specifically, look at how JS can be used to manipulate HTML and the DOM. 
+Specifically, look at how JS can be used to manipulate HTML and the DOM.
+
+-->

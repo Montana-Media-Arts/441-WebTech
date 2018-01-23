@@ -8,7 +8,7 @@ i.e. $ node 05_process der "something else"
 
 should return something like:
 [ '/usr/local/bin/node',
-  '/Users/musick/um_git/441-web-technologies/in_class/06a/05_process.js',
+  '/Users/musick/um_git/441-WebTech/in_class/06a/05_process.js',
   'der',
   'something else' ]
 
