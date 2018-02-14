@@ -21,7 +21,6 @@ the correct output occurs.
 
 
 
-
 /**************************************************/
 // PROBLEM 2 - Using Loops to Create Pyramids
 //
