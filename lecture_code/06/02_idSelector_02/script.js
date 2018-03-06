@@ -1,2 +1,2 @@
-let node = document.getElementById('d1');
+let node = document.querySelector('#d1');
 node.innerText = "hey there";
