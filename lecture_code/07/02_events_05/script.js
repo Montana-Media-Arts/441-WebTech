@@ -20,7 +20,7 @@ function bgChange( event ) {
     // check if a flashing property has been created and
     // assigned to the element object.
     if( divEl.flashing ){
-        // if it has, clear the flashing timer. 
+        // if it has, clear the flashing timer.
         clearInterval( divEl.flashing );
     }
 
@@ -32,6 +32,8 @@ function bgChange( event ) {
     } else if ( divEl.idx === 2 ) {
         divEl.style.background = '#eb308f';
     }
+    // increment the object idx property
+    divEl.idx = (divEl.idx + 1) % 3;
 
     // check if the shift key was also down.
     // We can do this through the event's extra properties.
@@ -41,8 +43,6 @@ function bgChange( event ) {
         divEl.flashing = setInterval( flashEl( divEl ), 200);
     }
 
-    // increment the object idx property
-    divEl.idx = (divEl.idx + 1) % 3;
 }
 
 
